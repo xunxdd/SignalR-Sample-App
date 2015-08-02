@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>SignalR test</title>
+</head>
+<body>
+    <h2>You and Tasks </h2>
+    <div class="loading">
+    </div>
+    <br />
+    <input type="button" id="AutoUpdate" value="Auto update task status" />
+    <br />
+    <br />
+    <table cellpadding="0" cellspacing="0" border="0" class="display" id="taskTable">
+        <thead>
+            <tr>
+                <th>TaskId</th>
+                <th>Name</th>
+                <th>Owner</th>
+                <th>Done?</th>
+            </tr>
+        </thead>
+    </table>
+
+
+
+    <link href="css/tasks.css" rel="stylesheet" />
+    <link href="css/jquery.dataTables.css" rel="stylesheet" />
+    <script src="Scripts/jquery-2.1.4.min.js"></script>
+    <script src="Scripts/jquery.dataTables.min.js"></script>
+    <script src="Scripts/jquery.signalR-2.2.0.js"></script>
+    <script src="SignalR/hubs"></script>
+    <script src="Scripts/task.js"></script>
+</body>
+</html>

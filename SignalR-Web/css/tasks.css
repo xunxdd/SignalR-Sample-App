@@ -1,0 +1,13 @@
+﻿.loading {
+    width: 1200px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 500px;
+    background: #fff center url("/loading.gif") no-repeat;
+    z-index: 2;
+}
+
+#summary {
+    color: red;
+}

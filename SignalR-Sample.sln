@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{C5F605EC-1FCC-41EC-8BD1-1AA260B7E33D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR-Web", "SignalR-Web\SignalR-Web.csproj", "{D058AAD0-FF66-417B-A540-7692CC81C51F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F605EC-1FCC-41EC-8BD1-1AA260B7E33D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5F605EC-1FCC-41EC-8BD1-1AA260B7E33D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5F605EC-1FCC-41EC-8BD1-1AA260B7E33D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5F605EC-1FCC-41EC-8BD1-1AA260B7E33D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D058AAD0-FF66-417B-A540-7692CC81C51F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D058AAD0-FF66-417B-A540-7692CC81C51F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D058AAD0-FF66-417B-A540-7692CC81C51F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D058AAD0-FF66-417B-A540-7692CC81C51F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

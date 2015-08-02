@@ -1,0 +1,5 @@
+C:\Users\xding\Documents\github\SignalR-Sample\Services\bin\Debug\Services.dll
+C:\Users\xding\Documents\github\SignalR-Sample\Services\bin\Debug\Services.pdb
+C:\Users\xding\Documents\github\SignalR-Sample\Services\obj\Debug\Services.dll
+C:\Users\xding\Documents\github\SignalR-Sample\Services\obj\Debug\Services.pdb
+C:\Users\xding\Documents\github\SignalR-Sample\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
