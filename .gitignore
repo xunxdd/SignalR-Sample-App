@@ -149,25 +149,8 @@ $RECYCLE.BIN/
 # Aptana Project file
 .project
 
-# =========================
-# MyMetrix specific ignores
-# =========================
-developer.properties
-Comscore.Data
-
-# JS build files that should not be included.
-Web/Comscore.MediaMetrix.UI/scripts/controls
-Web/Comscore.MediaMetrix.UI/scripts/core
-Web/Comscore.MediaMetrix.UI/scripts/ext/livegrid
-Web/Comscore.MediaMetrix.UI/scripts/report
-Web/Comscore.MediaMetrix.UI/scripts/advertiserdefinitions_aspx.js
-Web/Comscore.MediaMetrix.UI/scripts/dictionarydefinitions_aspx.js
-Web/Comscore.MediaMetrix.UI/scripts/listmanager_aspx.js
-Web/Comscore.MediaMetrix.UI/scripts/preferences_aspx.js
-Web/Comscore.MediaMetrix.UI/scripts/productdictionary_aspx.js
-Web/Comscore.MediaMetrix.UI/scripts/report_aspx.js
-
-Core_Distribution/
-*.orig
 
 jasmine/**/*.xml
+
+#Top-Level (Shared) NuGet Packages Directory
+/packages/
