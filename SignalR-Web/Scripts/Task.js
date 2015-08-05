@@ -1,16 +1,8 @@
-﻿// A simple background color flash effect that uses jQuery Color plugin
-jQuery.fn.flash = function (color, duration) {
-    var current = this.css('backgroundColor');
-    this.animate({ backgroundColor: 'rgb(' + color + ')' }, duration / 2)
-        .animate({ backgroundColor: current }, duration / 2);
-};
-
-$(function () {
+﻿$(document).ready(function () {
 
     var taskHub = $.connection.taskHub, // the generated client-side hub proxy
         table = $('#taskTable'),
-        loading = $('.loading'),
-        summary = $('#summary');
+        loading = $('.loading');
 
     function setUpEventHandler() {
         // Wire up the buttons
@@ -46,7 +38,8 @@ $(function () {
                          // `data` option, which defaults to the column being worked with, in
                          // this case `data: 0`.
                          "render": function (rowdata, type, row) {
-                             return rowdata + "atlatj";
+                             var cls =rowdata? "done" :"notdone";
+                             return '<div class="status ' + cls+ '"></div>';
                          },
                          "targets": 3
                      }

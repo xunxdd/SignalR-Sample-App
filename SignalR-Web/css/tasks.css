@@ -8,6 +8,15 @@
     z-index: 2;
 }
 
-#summary {
-    color: red;
+.status {
+    width: 50px;
+    height: 50px;    
+}
+
+.status.done {
+    background: #fff center url("../done.png") no-repeat;
+}
+
+.status.notdone {
+    background: #fff center url("../notdone.png") no-repeat;
 }

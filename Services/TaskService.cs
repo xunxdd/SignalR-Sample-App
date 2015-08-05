@@ -22,7 +22,7 @@ namespace Services
                 {
                     Owner = Owners[i % ownerCount],
                     Name = TaskNames[i % taskCount] + " " + i,
-                    Done = false,
+                    Done = i % 3==0,
                     TaskId = i
                 });
 
@@ -41,7 +41,7 @@ namespace Services
 
             if (task != null)
             {
-                task.Done = true;
+                task.Done = !task.Done;
             }
 
             return task;
