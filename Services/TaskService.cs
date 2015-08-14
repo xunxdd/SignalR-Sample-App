@@ -41,7 +41,7 @@ namespace Services
 
             if (task != null)
             {
-                task.Done = !task.Done;
+                task.Done = true;
             }
 
             return task;
