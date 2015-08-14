@@ -1,4 +1,5 @@
-# SignalR-Sample-App
+# SignalR Sample Web App
+
 A sample web application that demos how to set up SignalR on the client and server side, make signalR requests.
 
 
@@ -9,6 +10,6 @@ A simple app that shows how to set up a web app that uses signalR and jQuery. </
 
 # Code walk-through
 
-Interested in peeking in SignalR in light of this tutorial? please check out 
+Interested in peeking in SignalR in light of this code sample? please check out 
 
 http://www.codeproject.com/script/Articles/ArticleVersion.aspx?waid=179744&aid=1018938
