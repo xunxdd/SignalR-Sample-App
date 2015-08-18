@@ -12,4 +12,4 @@ A simple app that shows how to set up a web app that uses signalR and jQuery. </
 
 Interested in peeking in SignalR in light of this code sample? please check out 
 
-http://www.codeproject.com/script/Articles/ArticleVersion.aspx?waid=179744&aid=1018938
+http://www.codeproject.com/Articles/1018938/SignalR-ASP-NET-Way-of-Socket-Programming
